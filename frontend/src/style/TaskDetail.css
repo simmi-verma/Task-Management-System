@@ -1,0 +1,49 @@
+/* Container for the details */
+.task-details-view {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2d3748;
+  line-height: 1.6;
+}
+
+.task-details-view h2 {
+  color: #1a202c;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.task-details-view hr {
+  border: 0;
+  border-top: 1px solid #e2e8f0;
+  margin: 15px 0;
+}
+
+.task-details-view p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.task-details-view strong {
+  color: #4a5568;
+  display: inline-block;
+  width: 100px; /* Aligns the labels */
+}
+
+/* Status and Priority Badge Styling */
+.status-text, .priority-text {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* Status Specific Colors */
+.status-text.pending { background: #edf2ff; color: #364fc7; }
+.status-text.in-progress { background: #fff9db; color: #f08c00; }
+.status-text.completed { background: #ebfbee; color: #2b8a3e; }
+
+/* Priority Specific Colors */
+.priority-text.high { background: #fff5f5; color: #c92a2a; border: 1px solid #ffa8a8; }
+.priority-text.medium { background: #fff9db; color: #e67700; border: 1px solid #ffe066; }
+.priority-text.low { background: #f4fce3; color: #5c940d; border: 1px solid #c0eb75; }
